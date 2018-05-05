@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -27,6 +28,7 @@
     "semantic-ui-react": "^0.79.1",
     "validator": "^9.4.1"
   },
+  "proxy":"http://localhost:8080",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
